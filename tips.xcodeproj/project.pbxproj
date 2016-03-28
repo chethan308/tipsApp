@@ -13,6 +13,7 @@
 		EC847C531CA8E9D3008852CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC847C521CA8E9D3008852CF /* Images.xcassets */; };
 		EC847C561CA8E9D3008852CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC847C541CA8E9D3008852CF /* LaunchScreen.xib */; };
 		EC847C621CA8E9D4008852CF /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC847C611CA8E9D4008852CF /* tipsTests.swift */; };
+		EC847C6C1CA8FB43008852CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC847C6B1CA8FB43008852CF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EC847C5B1CA8E9D3008852CF /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC847C601CA8E9D3008852CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC847C611CA8E9D4008852CF /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		EC847C6B1CA8FB43008852CF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		EC847C481CA8E9D3008852CF /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				EC847C6D1CA8FB6F008852CF /* View Controllers */,
 				EC847C4B1CA8E9D3008852CF /* AppDelegate.swift */,
 				EC847C4D1CA8E9D3008852CF /* ViewController.swift */,
 				EC847C4F1CA8E9D3008852CF /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				EC847C601CA8E9D3008852CF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC847C6D1CA8FB6F008852CF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC847C6B1CA8FB43008852CF /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				EC847C4E1CA8E9D3008852CF /* ViewController.swift in Sources */,
 				EC847C4C1CA8E9D3008852CF /* AppDelegate.swift in Sources */,
+				EC847C6C1CA8FB43008852CF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
